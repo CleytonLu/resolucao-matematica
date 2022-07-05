@@ -1,0 +1,54 @@
+header h1{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+article{
+    position: relative;
+    top: 20px; 
+    text-align: center;   
+}
+
+article p{
+    width: 800px;
+    text-indent: 20px;
+    margin-left: 230px;
+}
+
+article img{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* ÁREA DE CALCULO */
+.calculo{
+    position: relative;
+    text-align: center;
+    margin: 50px 0px 80px 0px;
+}
+
+.calculo input{
+    background-color: #fff;
+    border-color: rgb(168, 162, 162);
+    border-radius: 20px;
+    color: #000;
+    margin: 10px;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.calculo #obs{
+    font-size: 12px;
+}
+
+.calculo #res{
+    border: 1px solid orange;
+    width: 100px;
+    padding: 20px;
+    margin: auto;
+    background-color: orange;
+    border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+/* GERAL */
+
+*{
+    background-color: rgb(36, 35, 35);
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size:bolder;
+    transition: 0.3s;
+}
+a:hover{
+    color: orange;
+}
+
+/*BTN DE VOLTAR */
+
+footer img{
+    position: absolute;
+    width: 50px;
+    float: left;
+    transition: 0.3s;
+    margin: 10px;
+    padding: 10px 0 15px 0;
+}
+
+footer:hover img{
+    transform: scale(1.1);
+}

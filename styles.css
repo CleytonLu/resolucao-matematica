@@ -69,6 +69,7 @@ a:hover{
     background-color: #fff;
     width: 350px;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardPotencia:hover{
@@ -85,6 +86,7 @@ a:hover{
     padding: 10px;
     background-color: #fff;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardRaiz:hover{
@@ -100,6 +102,7 @@ a:hover{
     padding: 10px;
     background-color: #fff;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardFin:hover{
@@ -115,6 +118,7 @@ a:hover{
     padding: 10px;
     background-color: #fff;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardFuncoes:hover{
@@ -130,6 +134,7 @@ a:hover{
     padding: 10px;
     background-color: #fff;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardGeometria:hover{
@@ -145,6 +150,7 @@ a:hover{
     padding: 10px;
     background-color: #fff;
     transition: 0.5s;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.822);
 }
 
 .cardPitagoras:hover{

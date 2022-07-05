@@ -5,14 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resoluções de Matemática - Radiciação</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/formulas/style.global.css">
     <link rel="shortcut icon" href="/img/raiz.jpg" type="image/x-icon">
+    <!-- STYLE LOCAL -->
+    <link rel="stylesheet" href="radiciacao.css">
+    <script src="radicioacao.js"></script>
 </head>
 <body>
-    <header class="textContent">
-            <h1 id="textIntial">Olá neste site, você terá a oportunidade de ter as fórmulas de Matemática, e não apenas isso,</h1>  
-                <h1>&nbsp;&nbsp;&nbsp;&nbsp; mas também terá a oportunidade de receber a resolução e explicação dos seus conceitos.</h1>
-            
+    
+    <header>
+        <h1>Você acessou o Card da matéria de Radiciação</h1>
     </header>
+
+    <div class="calculo">
+        <p id="obs"><b>Obs.:</b> Apenas Raiz Quadrada <br> e valores exato(por enquanto)</p>
+        <input id="valor" type="number" placeholder="Raiz desejada"><br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <p id="res">...</p>
+    </div>
+
+    <hr>
+
+    <article>
+        <h2>Conceitos da Radiciação</h2>
+        <ul style ="list-style: none;">
+            <li><legend><h3>1º Propriedade</h3></legend>
+                <p> Raiz enésima de um número a elevado a n é igual ao próprio número a, ou seja, calculando a raiz de um número cujo o índice da raiz é igual ao expoente do radicando, encontraremos como resposta o próprio radicando.
+                </p>          
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/11/3-propriedade1.jpg" alt="Conceito">
+            </li>
+
+            <li><legend><h3>2º Propriedade</h3></legend>
+                <p>
+                    A raiz enésima do produto é igual ao produto de duas raízes enésimas. Se o radicando for o produto entre dois números, podemos separar como a multiplicação da raízes enésimas de cada uma de suas parcelas.
+                </p>
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/11/4-propriedade2.jpg" alt="Conceito">
+            </li>
+
+            <li><legend><h3>3º Propriedade</h3></legend>
+                <p>
+                    A raiz enésima de uma divisão é igual ao quociente entre duas raízes enésimas. Se o radicando for uma divisão entre dois números, podemos separar como a raiz enésima do dividendo, dividido pela raiz enésima do divisor.
+                </p>
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/11/5-propriedade-3.jpg" alt="Conceito">
+            </li>
+        </ul>
+    </article>
+
+    <div>
+        <p>Para mais informações sobre os conceitos de radiciação <a style="color: orange;" href="https://mundoeducacao.uol.com.br/matematica/radiciacao.htm">Acesse</a></p>
+    </div>
+
+    <footer>
+        <a href="/index.html"><img src="/img/botao-voltar.png" alt="Retornar"></a>
+    </footer>
+
 </body>
 </html>
