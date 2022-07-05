@@ -5,11 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resoluções de Matemática - Potência</title>
+    <!-- STYLE GLOBAL -->
     <link rel="stylesheet" href="/formulas/style.global.css">
     <link rel="shortcut icon" href="/img/potencia.jpg" type="image/x-icon">
+    <!-- STYLE LOCAL -->
+    <link rel="stylesheet" href="potencia.css">
+    <script src="potencia.js"></script>
+    
 </head>
 <body>
-    
+    <header>
+        <h1>Você acessou o Card da matéria de Potência</h1>
+    </header>
+
+    <div class="calculo">
+        <input id="valor" type="number" placeholder="Base"><br>
+        <input id="expoente" type="number" placeholder="expoente"><br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <p id="res">...</p>
+    </div>
+
+    <hr>
+
+    <article>
+        <h2>Conceitos da Radiciação</h2>
+        <ul style ="list-style: none;">
+            <li><legend><h3>1º Propriedade</h3></legend>
+                <p> Toda potência com expoente igual a zero, o resultado será 1, por exemplo: 50=1
+                </p>          
+            </li>
+
+            <li><legend><h3>2º Propriedade</h3></legend>
+                <p>
+                    Toda potência com expoente igual 1, o resultado será a própria base, por exemplo: 81 = 8
+                </p>
+            </li>
+
+            <li><legend><h3>3º Propriedade</h3></legend>
+                <p>
+                    Quando a base for negativa e o expoente um número ímpar, o resultado será negativo, por exemplo: (- 3)3 = (- 3) x (- 3) x (- 3) = - 27.
+                </p>
+            </li>
+
+            <li><legend><h3>4º Propriedade</h3></legend>
+                <p>
+                    Quando a base for negativa e o expoente um número par, o resultado será positivo, por exemplo: (- 2)2 = (- 2) x (- 2) = +4
+                </p>
+            </li>
+
+            <li><legend><h3>5º Propriedade</h3></legend>
+                <p>
+                    Quando o expoente for negativo, inverte-se a base e muda-se o sinal do expoente para positivo, por exemplo: (2)- 4 = (1/2)4 = 1/16
+                </p>
+            </li>
+
+            <li><legend><h3>6º Propriedade</h3></legend>
+                <p>
+                    Nas frações, tanto o numerador quanto o denominador ficam elevados ao expoente, por exemplo: (2/3)3 = (23 / 33) = 8/27
+                </p>
+            </li>
+        </ul>
+    </article>
+
+    <div class="credito">
+        <p>Para mais informações sobre os conceitos de Potência <a target="_blank" style="color: orange;" href="https://www.todamateria.com.br/potenciacao/">Acesse</a></p>
+    </div>
     <footer>
         <a href="/index.html"><img src="/img/botao-voltar.png" alt="Retornar"></a>
     </footer>
