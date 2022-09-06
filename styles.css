@@ -34,6 +34,10 @@ a:hover{
     margin: 0;
 }
 
+#textIntial{
+    margin-left: 25px;
+}
+
 /* CARD CONTENT */
 
 .cardContent{
@@ -155,4 +159,128 @@ a:hover{
 
 .cardPitagoras:hover{
     transform: scale(1.1);
+}
+
+
+/* RESPONSIVIDADE */
+
+/* 1064 PX */
+
+@media screen and (max-width: 1240px){
+
+    .cardGeral{
+        margin-left: 0px;
+    }
+
+    .cardContent{
+       width: 900px;
+       margin: auto;
+       padding: 0 20px;
+    }
+
+    .textContent{
+        width: 880px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 9px;
+    }
+
+    #textIntial{
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 962px){
+
+    .cardFin{
+        margin-left: 35px;
+    }
+
+    .cardRaiz{
+        margin-left: 40px;
+    }
+
+    .cardGeral img{
+        width: 220px;
+    }
+
+    .cardContent{
+       width: 800px;
+       margin: auto;
+       padding: 0 20px;
+    }
+    
+}
+
+@media screen and (max-width: 896px){
+
+    .textContent{
+        width: 800px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 8px;
+    }    
+
+}
+
+@media screen and (max-width: 860px){
+
+    .cardGeral img{
+        width: 180px;
+    }
+
+    .cardContent{
+       width: 700px;
+       margin: auto;
+       padding: 0 20px;
+    }
+
+    #textIntial{
+        margin-left: 18px;
+    }
+
+}
+
+@media screen and (max-width: 805px){
+
+    .textContent{
+        width: 700px;
+        margin: auto;
+        font-weight: 300;
+        font-size: 7px;
+    }  
+
+}
+
+@media screen and (max-width: 765px){
+
+    .cardGeral img{
+        width: 150px;
+    }
+
+    .cardContent{
+       width: 600px;
+       margin: auto;
+       padding: 0 12px;
+    }
+
+    #textIntial{
+        margin-left: 18px;
+    }
+
+}
+
+@media screen and (max-width: 712px){
+
+    .textContent{
+        width: 600px;
+        margin: auto;
+        font-weight: 600;
+        font-size: 6.1px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    
 }
